@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+.appbody {
+  border: 3px dotted #d1d6d6;
+  width: 700px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.appbody.active {
+  border: 3px solid rgb(49, 168, 12);
+}
+.icon {
+  font-size: 100px;
+  color: rgba(13, 204, 45, 0.651);
+}
+.appbody span {
+  font-size: 25px;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0 15px 0;
+}
+.appbody button {
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: rgba(13, 204, 45, 0.651);
+  border-radius: 58px;
+  cursor: pointer;
+}
+.appbody img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
